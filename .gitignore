@@ -1,0 +1,31 @@
+# Compiled binaries (Go outputs binaries by default)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test binaries and coverage artifacts
+*.test
+*.out
+*.coverprofile
+profile.cov
+
+# Dependency directories 
+# (Only uncomment vendor/ if you do not want to commit vendored dependencies)
+# vendor/
+
+# Go workspaces
+go.work
+go.work.sum
+go.sum
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and OS-specific files
+.idea/
+.vscode/
+.DS_Store
